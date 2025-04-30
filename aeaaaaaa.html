@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtener datos de formulario con Javascript</title>
+    <script type="text/javascript" src="javasss.js"></script>
+</head>
+<body>
+    <h1>Registro de usuario</h1>
+    <form name="formulario">
+        <label for="user">Usuario</label>
+        <input type="text" name="user" id="user"><br/>
+        <label for="user">Password</label>
+        <input type="password" name="pass" id="pass"><br/>
+        <select name="carrera" id="carrera">
+            <option value="ITI">Ing. en Tec. Informacion</option>
+            <option values="ITEM">Ing. Telematica</option>
+        </select>
+        <label for="genero">Genero</label>
+        <input type="radio" name="genero" value="f">
+        Femenino<br/>
+        <input type="radio" name="genero" value="m">
+        Masculino<br/>
+        <input type="checkbox" name="casilla" value="casilla">
+        <label for="casilla">Acepto los terminos y condiciones de uso</label><br/>
+        <input type="button" name="envio" id="envio" values="Leer datos" onclick="leer()">
+    </form>
+    <div id="resultado">Leer datos</div>
+</body>
+</html>
