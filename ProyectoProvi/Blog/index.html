@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog</title>
+  <link rel="stylesheet" href="estiloblog.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="navbar">
+    <img src="../logo.jpg" alt="Logo Botanas Provi">
+    <nav>
+      <a href="../Proyecto web final.html">Inicio</a>
+      <a href="../Productos/productos.html">Productos</a>
+      <a href="../Contacto/contacto.html">Contacto</a>
+      <a href="#">Blog</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="blog">
+      <h1>Blog de Botanas Provi</h1>
+      
+    </section>
+    <section class="blog-container">
+      <button id="toggle-form" class="toggle-btn">Crear nuevo post +</button>
+
+      <form id="formulario-post" class="blog-form hidden">
+        <input type="text" id="titulo" placeholder="Título del post" required>
+        <textarea id="contenido" placeholder="Contenido del post" required></textarea>
+        <button type="submit">Publicar</button>
+      </form>
+
+      <div id="posts"></div>
+    </section>
+
+    <div id="posts"></div>
+
+    
+
+    <script src="blog.js"></script>
+
+  </main>
+
+  <footer>
+        <p>&copy; 2025 Botanas Provi. Todos los derechos reservados.</p>
+        <div class="footer-redes">
+            <a href="https://www.facebook.com/BotanasProvi/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/papas_provi/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/botanasprovi" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>    
+        <p>Página web desarrollada para la materia de Programación Web 1</p>
+        <p>Primavera 2025. Universidad Politécnica de San Luis Potosí</p>
+  </footer>
+
+  <script src="blog.js"></script>
+</body>
+</html>
