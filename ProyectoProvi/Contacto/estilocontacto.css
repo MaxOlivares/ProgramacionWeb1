@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffbdc;
+}
+.navbar {
+    background-color: #fcd424;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar img {
+    height: 50px;
+}
+.navbar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    border-bottom: 3px solid #fcd424;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.footer-redes {
+    margin-top: 10px;
+}
+  
+.footer-redes a {
+    color: black;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+  
+.footer-redes a:hover {
+    color: #f37c22;
+}

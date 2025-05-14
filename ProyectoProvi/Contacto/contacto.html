@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="estilocontacto.css">
+</head>
+<body>
+
+    <header class="navbar">
+    <img src="logo.jpg" alt="Logo Botanas Provi">
+    <nav>
+      <a href="../Proyecto web final.html">Inicio</a>
+      <a href="../Productos/productos.html">Productos</a>
+      <a href="Contacto/contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <h1>Contáctanos</h1>
+  <form action="https://formspree.io/f/xblopewg" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+
+    <label for="asunto">Asunto:</label>
+    <input type="text" id="asunto" name="asunto" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <footer>
+        <p>&copy; 2025 Botanas Provi. Todos los derechos reservados.</p>
+        <div class="footer-redes">
+            <a href="https://www.facebook.com/BotanasProvi/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/papas_provi/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/botanasprovi" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>    
+        <p>Página web desarrollada para la materia de Programación Web 1</p>
+        <p>Primavera 2025. Universidad Politécnica de San Luis Potosí</p>
+    </footer>
+</body>
+</html>
