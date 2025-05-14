@@ -115,6 +115,26 @@ body {
     background-color: #f37c22;
 }
 
+.boton-rojo {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-rojo:hover {
+    background-color: darkred;
+}
+
+.centrado {
+    text-align: center;
+    margin-top: 50px;
+}
 /* Estilos del footer */
 footer {
     background-color: yellow;
@@ -150,6 +170,58 @@ footer {
 .video {
     justify-content: center;
     margin: 20px auto;
+}
+
+.formulario-contratacion {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+.form-group {
+    margin-bottom: 20px;
+    }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    }
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-enviar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #45a049;
+}
+
+#mensaje-exito {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    border-radius: 4px;
 }
 
 .redes-sociales {
@@ -216,55 +288,3 @@ footer {
     margin: 15px 0;
   }
   
-  .formulario-contratacion {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 30px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #333;
-}
-
-input, textarea, select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-.btn-enviar {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.btn-enviar:hover {
-    background-color: #45a049;
-}
-
-#mensaje-exito {
-    display: none;
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #dff0d8;
-    border: 1px solid #d6e9c6;
-    color: #3c763d;
-    border-radius: 4px;
-}
